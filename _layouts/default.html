@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
         <link rel="icon" href="{{ '/assets/imgs/profile.png' | relative_url }}" type="image/png">
         <script>
             MathJax = {
@@ -45,13 +46,16 @@
             <a href="{{ '/pages/bookmarks.html' | relative_url }}">Bookmarks</a>
             <div class="social-icons">
                 <a href="{{ site.linkedin }}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="{{ site.scholar }}" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
                 <a href="{{ site.github }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                <a href="mailto:{{ site.email }}" aria-label="Email"><i class="fas fa-envelope"></i></a>
             </div>
         </div>
 
         <main markdown="1" class="container">
             {{ content }}
         </main>
+        {% if page.url == "/" or page.url == "/index.html" %}
+        <footer class="site-updated">Last updated {{ site.time | date: "%B %d, %Y" }}</footer>
+        {% endif %}
     </body>
 </html>

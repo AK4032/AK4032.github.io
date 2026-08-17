@@ -6,7 +6,7 @@ Personal website, deployed with GitHub Pages: [https://ak4032.github.io](https:/
 
 | What | File |
 |------|------|
-| Name, email, LinkedIn, GitHub | `_config.yml` |
+| Name, LinkedIn, Google Scholar, GitHub | `_config.yml` |
 | Homepage bio | `index.md` |
 | Tabs / navbar | `_layouts/default.html` |
 | Colors, fonts | `assets/css/style.css` |

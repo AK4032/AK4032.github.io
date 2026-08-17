@@ -70,6 +70,21 @@ a:visited {
 
 .social-icons a {
     margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icons i {
+    font-size: 1.15rem;
+}
+
+.site-updated {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2.5rem 40px 1.5rem;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .dropdown {
