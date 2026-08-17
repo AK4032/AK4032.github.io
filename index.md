@@ -5,7 +5,20 @@ title: Adi Krishnamoorthy
 
 <style>
     body {
-        background-color: #2a9d8f;
+        background-color: #c41e3a;
+        color: #f8fafc;
+    }
+
+    a {
+        color: #bfdbfe;
+    }
+
+    a:hover {
+        color: #ffffff;
+    }
+
+    a:visited {
+        color: #93c5fd;
     }
 </style>
 

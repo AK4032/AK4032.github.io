@@ -22,11 +22,11 @@
         <!--
           HOW TO CHANGE TABS
           1. Add or rename a link in the navbar below.
-          2. Create a matching markdown file in pages/ (see pages/queueing.md for the template).
+          2. Create a matching markdown file in pages/ (see pages/travel.md for the template).
           3. Set layout: default and a title in that file's front matter (the bit between ---).
           4. Home is index.md. Site-wide name/links live in _config.yml.
 
-          Example Academic item:
+          Example Blog item:
             <a href="/pages/my-topic.html">My Topic</a>
           plus a new file pages/my-topic.md
         -->
@@ -35,19 +35,13 @@
             <a href="{{ '/pages/cv.html' | relative_url }}">CV</a>
             <!-- To use a PDF instead: put the file in assets/docs/cv.pdf and change the link to /assets/docs/cv.pdf -->
             <div class="dropdown">
-                <a href="#" class="dropdown-toggle">Academic</a>
-                <div class="dropdown-menu">
-                    <a href="{{ '/pages/queueing.html' | relative_url }}">Queueing Theory</a>
-                    <a href="{{ '/pages/information_theory.html' | relative_url }}">Information Theory</a>
-                </div>
-            </div>
-            <div class="dropdown">
                 <a href="#" class="dropdown-toggle">Blog</a>
                 <div class="dropdown-menu">
                     <a href="{{ '/pages/travel.html' | relative_url }}">Travel</a>
                     <a href="{{ '/pages/chicago_restaurants.html' | relative_url }}">Chicago Restaurants</a>
                 </div>
             </div>
+            <a href="{{ '/pages/bookmarks.html' | relative_url }}">Bookmarks</a>
             <div class="social-icons">
                 <a href="{{ site.linkedin }}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
                 <a href="{{ site.github }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
