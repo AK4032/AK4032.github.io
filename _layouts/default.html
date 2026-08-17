@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="icon" href="{{ '/assets/imgs/profile.png' | relative_url }}" type="image/png">
+        <script>
+            MathJax = {
+                tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+                }
+            };
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js"></script>
+    </head>
+    <body>
+        <!--
+          HOW TO CHANGE TABS
+          1. Add or rename a link in the navbar below.
+          2. Create a matching markdown file in pages/ (see pages/queueing.md for the template).
+          3. Set layout: default and a title in that file's front matter (the bit between ---).
+          4. Home is index.md. Site-wide name/links live in _config.yml.
+
+          Example Academic item:
+            <a href="/pages/my-topic.html">My Topic</a>
+          plus a new file pages/my-topic.md
+        -->
+        <div class="navbar">
+            <a href="{{ '/' | relative_url }}">Home</a>
+            <a href="{{ '/pages/cv.html' | relative_url }}">CV</a>
+            <!-- To use a PDF instead: put the file in assets/docs/cv.pdf and change the link to /assets/docs/cv.pdf -->
+            <div class="dropdown">
+                <a href="#" class="dropdown-toggle">Academic</a>
+                <div class="dropdown-menu">
+                    <a href="{{ '/pages/queueing.html' | relative_url }}">Queueing Theory</a>
+                    <a href="{{ '/pages/information_theory.html' | relative_url }}">Information Theory</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="#" class="dropdown-toggle">Personal</a>
+                <div class="dropdown-menu">
+                    <a href="{{ '/pages/chicago_restaurants.html' | relative_url }}">Chicago Restaurants</a>
+                    <a href="{{ '/pages/recipes.html' | relative_url }}">Recipes</a>
+                    <a href="{{ '/pages/bookshelf.html' | relative_url }}">Bookshelf</a>
+                </div>
+            </div>
+            <div class="social-icons">
+                <a href="{{ site.linkedin }}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="{{ site.github }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="mailto:{{ site.email }}" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+
+        <main markdown="1" class="container">
+            {{ content }}
+        </main>
+    </body>
+</html>

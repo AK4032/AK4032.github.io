@@ -1,3 +1,19 @@
 title: Adi Krishnamoorthy
-theme: jekyll-theme-cayman
-description: For my project.
+description: Personal website
+baseurl: ""
+url: "https://ak4032.github.io"
+
+# Edit your name, email, and social links here — the layout reads these values.
+name: Adi Krishnamoorthy
+email: adikpenn@gmail.com
+linkedin: https://www.linkedin.com/in/adi-kri
+github: https://github.com/AK4032
+
+kramdown:
+  math_engine: mathjax
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
