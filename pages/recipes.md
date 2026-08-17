@@ -11,8 +11,6 @@ title: Recipes
 
 # Recipes
 
-<p class="edit-hint">Add dishes here. Each <code>## Heading</code> becomes an entry. Edit <code>pages/recipes.md</code>.</p>
-
-## Example dish
+## Dish name
 
 Ingredients and steps go here.

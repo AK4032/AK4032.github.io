@@ -11,8 +11,6 @@ title: Queueing Theory
 
 # Queueing Theory
 
-<p class="edit-hint">This is a starter notes page. Edit <code>pages/queueing.md</code> — MathJax is already enabled, so you can write $math$ and $$display math$$.</p>
-
 Queueing theory studies waiting lines: arrivals, service, and the resulting congestion. A few objects I keep coming back to:
 
 ## Glossary

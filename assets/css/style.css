@@ -139,12 +139,6 @@ hr {
     margin: 1.5em 0;
 }
 
-.edit-hint {
-    color: #264653;
-    font-size: 0.95em;
-    font-style: italic;
-}
-
 @media (max-width: 800px) {
     .home-hero {
         flex-direction: column;

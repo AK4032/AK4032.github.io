@@ -11,8 +11,6 @@ title: CV
 
 # Adi Krishnamoorthy
 
-<p class="edit-hint">Edit this page in <code>pages/cv.md</code>. To use a PDF instead, add <code>assets/docs/cv.pdf</code> and point the CV tab in <code>_layouts/default.html</code> at that file.</p>
-
 **Email:** [adikpenn@gmail.com](mailto:adikpenn@gmail.com)  
 **GitHub:** [AK4032](https://github.com/AK4032)  
 **LinkedIn:** [adi-kri](https://www.linkedin.com/in/adi-kri)

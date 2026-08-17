@@ -11,8 +11,6 @@ title: Information Theory
 
 # Information Theory
 
-<p class="edit-hint">Starter notes page. Edit <code>pages/information_theory.md</code> to add definitions, proofs, and paper notes.</p>
-
 A few pointers related to coding for insertions and deletions, which showed up in my ISIT 2025 work.
 
 ## Differential Varshamov–Tenengolts codes

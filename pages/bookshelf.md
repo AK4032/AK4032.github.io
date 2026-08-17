@@ -11,4 +11,4 @@ title: Bookshelf
 
 # What's on my bookshelf
 
-<p class="edit-hint">Add books as <code>## Author (year). Title.</code> Edit <code>pages/bookshelf.md</code>.</p>
+## Author (year). Title.
