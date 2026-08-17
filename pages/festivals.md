@@ -1,8 +1,8 @@
 ---
 layout: default
-title: RAVING!!!
+title: Festivals
 ---
 
-# RAVING!!!
+# Festivals I've been to
 
 Notes from the floor. Add sets, nights, and recs here.
