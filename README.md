@@ -12,7 +12,7 @@ Personal website, deployed with GitHub Pages: [https://ak4032.github.io](https:/
 | Colors, fonts | `assets/css/style.css` |
 | Profile photo | replace `assets/imgs/profile.png` |
 | CV | `pages/cv.md` (or link a PDF from the navbar) |
-| Academic / personal pages | files in `pages/` |
+| Academic / blog pages | files in `pages/` |
 
 To add a new tab, create a markdown file in `pages/` with this header:
 
