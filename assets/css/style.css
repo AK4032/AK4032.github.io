@@ -1,22 +1,30 @@
 body {
     font-family: 'Nunito', sans-serif;
     margin: 0;
+    background-color: #16121f;
+    background-image: radial-gradient(ellipse at top, #2a2140 0%, #16121f 58%);
+    background-attachment: fixed;
+    color: #c9c4d4;
+}
+
+h1, h2, h3, h4 {
+    color: #ddd8ea;
 }
 
 a {
-    color: #1d4e89;
+    color: #7eb8c9;
 }
 
 a:hover {
-    color: #c41e3a;
+    color: #d48aa8;
 }
 
 a:visited {
-    color: #0b3d91;
+    color: #9b8ec4;
 }
 
 .navbar {
-    background-color: #1d4e89;
+    background-color: #1e1a2c;
     display: flex;
     align-items: center;
     position: fixed;
@@ -25,10 +33,11 @@ a:visited {
     z-index: 999;
     box-sizing: border-box;
     flex-wrap: wrap;
+    border-bottom: 1px solid #3a3354;
 }
 
 .navbar a {
-    color: #f2f2f2;
+    color: #c9c4d4;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
@@ -36,16 +45,16 @@ a:visited {
 }
 
 .navbar a:hover {
-    background-color: #c41e3a;
-    color: #ffffff;
+    background-color: #2a243c;
+    color: #7eb8c9;
 }
 
 .navbar a:visited {
-    color: #f2f2f2;
+    color: #c9c4d4;
 }
 
 .navbar a:visited:hover {
-    color: #ffffff;
+    color: #7eb8c9;
 }
 
 .social-icons {
@@ -71,9 +80,10 @@ a:visited {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #c41e3a;
+    background-color: #252038;
     min-width: 160px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+    border: 1px solid #3a3354;
     border-radius: 6px;
     padding: 6px 0;
     z-index: 100;
@@ -88,17 +98,17 @@ a:visited {
     padding: 8px 16px;
     white-space: nowrap;
     text-decoration: none;
-    color: #ffffff;
+    color: #c9c4d4;
     text-align: left;
 }
 
 .dropdown-menu a:visited {
-    color: #ffffff;
+    color: #c9c4d4;
 }
 
 .dropdown-menu a:hover {
-    background-color: rgba(0, 0, 0, 0.15);
-    color: #ffffff;
+    background-color: #322b48;
+    color: #d48aa8;
 }
 
 .container {
@@ -118,8 +128,9 @@ a:visited {
 .home-hero img {
     width: 45%;
     max-width: 420px;
-    background: #ffffff;
+    background: #1e1a2c;
     border-radius: 12px;
+    box-shadow: 0 0 28px rgba(126, 184, 201, 0.18);
 }
 
 table {
@@ -129,14 +140,14 @@ table {
 }
 
 th, td {
-    border: 1px solid #1d4e89;
+    border: 1px solid #3a3354;
     padding: 8px 12px;
     text-align: left;
 }
 
 hr {
     border: none;
-    border-top: 1px solid #1d4e89;
+    border-top: 1px solid #3a3354;
     margin: 1.5em 0;
 }
 

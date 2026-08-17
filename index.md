@@ -3,25 +3,6 @@ layout: default
 title: Adi Krishnamoorthy
 ---
 
-<style>
-    body {
-        background-color: #c41e3a;
-        color: #f8fafc;
-    }
-
-    a {
-        color: #bfdbfe;
-    }
-
-    a:hover {
-        color: #ffffff;
-    }
-
-    a:visited {
-        color: #93c5fd;
-    }
-</style>
-
 <div class="home-hero">
     <!-- Replace assets/imgs/profile.png with a photo whenever you want. -->
     <img src="{{ '/assets/imgs/profile.png' | relative_url }}" alt="Adi Krishnamoorthy">
