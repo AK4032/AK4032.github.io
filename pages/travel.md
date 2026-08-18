@@ -7,6 +7,30 @@ title: Travel
 
 The places I have been, and my diary from the road.
 
+## Japan
+
+### June 20, 2026
+... That was one long plane ride. All the way from Chicago ORD to Tokyo HND, and a direct flight, too. As soon as I got off, I was glad to be walking around and moving my feet again. It was raining heavily. I had to take a bus to my hotel.
+
+Eventually, I made it. After spending some quality time with family, I decided to venture outdoors on my own. The hotel was a 20 minute walk from central Shinjuku, so I decided to go exploring that way. It was such a unique place, unlike anything I'd ever seen before. I was very tired, so I crashed early.
+
+### June 21, 2026
+We woke up early and went to Asakusa to see the Senso-ji temple. It was pretty amazing - the only thing I've seen similar to that was a Tibetan buddhist temple in Singapore. The whole complex was a pleasure to walk in and around. After exploring the temple, we walked along the streets of Asakusa, and got some sweet bread and Hokkaido milk tea ice cream from some of the local vendors. They both tasted amazing.
+
+For lunch, we went to a Vegan Ramen spot. After filling our stomachs to the brim, we went back to our hotel near Shinjuku. I wasn't tired, thought, so I ventured alone to Shinjuku proper to check out some of the department stores and possibly go shopping and get some nice trinkets. I didn't end up finding anything I liked, though, unfortunately, so I went back to the hotel empty-handed. In the evening, we took the subway to Roppongi to explore the Roppongi Hills area and grab dinner. We spent some time in a local bookstore, and then went to a pizzeria for dinner. The pizza was surprisingly good! (which was something I didn't expect 😂)
+
+### June 22, 2026
+The weather app said it was going to rain today, so we chose an indoor activity to do for the morning. We ended up going to the TeamLab Planets Tokyo exhibit, and what a sight it was. We walked through a waterway to a dim glow of light, and through rooms surrounded by Orchids growing all around us. We made our way around large, neon-colored, inflated spheres, and immersed ourselves in a virtual flower garden. It was frankly as if we became part of an art piece ourselves.
+
+We had vegan food again for lunch, and eventually made our way to the Ginza shopping district. After getting a massive haul from Uniqlo, we found a local matcha store and got some nice drinks and tea from there. It was honestly quite amazing. I decided to stay back in Ginza for a little bit longer, and walked Northwest, until I eventually found myself at the Central Tokyo Station. I walked around the station through the malls and stores there, and bought a load of merch for myself and my friends back home. 
+
+That evening, we were determined to see the Shibuya crossing, since we were scheduled to leave Tokyo the next day. After a hearty dinner, we made our way there and eventually found ourselves at the crossing. We crossed every possible crossing of two points at that intersection at least twice, and spent an hour meticulously inspecting every store nearby and looking at the people-counter board. I feel like if I were doing my PhD in that city, people-watching at this crossing might have become one of my favorite pastimes.
+
+### June 23, 2026
+We woke up early in the morning to get to Tokyo station so we could catch a train around noon to Kyoto. I went to a local store in the station and had some nice Tsukemen (which is a dish I had only had once before, in the Arts District in LA of all places) and it was quite good!
+
+We then lined up at the station. While waiting, we got some nice ice cream at one of the vending machines there. The train ride to Kyoto was just over two hours. Apparently you can see Mt. Fuji some days, but it was too cloudy the day we went, so we unfortunately weren't able to catch a glimpse of it. After reaching Kyoto and getting out of the train, I was shocked to see how different it was from Tokyo! While Tokyo felt like a high-rise, metropolitan city, Kyoto felt like a city with several old, traditional homes and a lot of history. It was a sight to walk around!
+
 ## Eastern Sierra Road Trip
 
 ### March 16, 2026
