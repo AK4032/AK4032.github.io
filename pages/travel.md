@@ -9,4 +9,4 @@ The places I have been, and my diary from the road.
 
 ## Eastern Sierra Road Trip
 
-Add notes here.
+### March 16, 2026
