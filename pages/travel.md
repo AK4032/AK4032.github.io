@@ -3,10 +3,10 @@ layout: default
 title: Travel
 ---
 
-# Travel
+# My Travel Blog
 
-Places I have been, and notes from the road.
+The places I have been, and my diary from the road.
 
-## Destination
+## Eastern Sierra Road Trip
 
 Add notes here.
