@@ -150,6 +150,55 @@ a:visited {
     box-shadow: 0 0 32px rgba(168, 85, 247, 0.35);
 }
 
+.post-list {
+    margin-top: 1.5rem;
+}
+
+.post-entry {
+    position: relative;
+    margin: 0 0 1.25rem;
+    padding: 1.25rem 1.4rem;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(192, 132, 252, 0.4);
+    border-radius: 18px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.post-entry:hover {
+    transform: translateY(-3px);
+    border-color: #5ce1ff;
+    box-shadow: 0 0 24px rgba(92, 225, 255, 0.22);
+}
+
+.post-entry .entry-header h2 {
+    margin: 0 0 0.5rem;
+    font-size: 1.35rem;
+    color: #ffffff;
+}
+
+.post-entry .entry-content p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.88);
+}
+
+.post-entry .entry-footer {
+    margin-top: 0.75rem;
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.post-entry .entry-link {
+    position: absolute;
+    inset: 0;
+}
+
+.post-meta {
+    margin: 0 0 0.35rem;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
 table {
     border-collapse: collapse;
     width: 100%;

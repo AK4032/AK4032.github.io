@@ -12,6 +12,14 @@ github: https://github.com/AK4032
 kramdown:
   math_engine: mathjax
 
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: default
+      permalink: /blog/:title.html
+
 exclude:
   - README.md
   - Gemfile

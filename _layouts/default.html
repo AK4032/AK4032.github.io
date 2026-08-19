@@ -36,8 +36,9 @@
             <a href="{{ '/pages/cv.html' | relative_url }}">CV</a>
             <!-- To use a PDF instead: put the file in assets/docs/cv.pdf and change the link to /assets/docs/cv.pdf -->
             <div class="dropdown">
-                <a href="#" class="dropdown-toggle">Blog</a>
+                <a href="{{ '/pages/blog.html' | relative_url }}" class="dropdown-toggle">Blog</a>
                 <div class="dropdown-menu">
+                    <a href="{{ '/pages/blog.html' | relative_url }}">General</a>
                     <a href="{{ '/pages/travel.html' | relative_url }}">Travel</a>
                     <a href="{{ '/pages/restaurants.html' | relative_url }}">Restaurants</a>
                     <a href="{{ '/pages/festivals.html' | relative_url }}">Festivals! :)</a>
@@ -52,6 +53,10 @@
         </div>
 
         <main markdown="1" class="container">
+            {% if page.collection == "posts" %}
+            <p class="post-meta">{{ page.date | date: "%B %d, %Y" }}</p>
+            <h1>{{ page.title }}</h1>
+            {% endif %}
             {{ content }}
         </main>
         {% if page.url == "/" or page.url == "/index.html" %}
