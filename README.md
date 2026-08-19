@@ -30,7 +30,10 @@ Then add a link in `_layouts/default.html`. Jekyll turns `pages/my-new-page.md` 
 
 Clicking **Blog** or **Blog → General** opens a page of post “bubbles,” like [aritang.github.io](https://aritang.github.io/). Travel, Restaurants, and Festivals stay as their own dropdown pages. Anything else goes here.
 
-1. Add a file under `_posts/` named `YYYY-MM-DD-short-slug.md` (the date is when it shows up on the bubble).
+1. Add a file under `_posts/` named **exactly** `YYYY-MM-DD-short-slug.md`.
+   - The date must be real (`2026-08-19` is fine; `2024-07-35` is not).
+   - Use hyphens, not spaces: `2026-08-19-test-second.md` works, `Test _second.md` does not.
+   - Jekyll ignores any file in `_posts/` that does not match this pattern, so it will never show up on the site.
 2. Use this header, then write the post below it:
 
 ```yaml
