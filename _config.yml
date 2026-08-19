@@ -1,5 +1,5 @@
 title: Adi Krishnamoorthy
-description: Personal website
+description: Personal website of Adi Krishnamoorthy, PhD student at the University of Chicago Booth School of Business.
 baseurl: ""
 url: "https://ak4032.github.io"
 
@@ -8,6 +8,16 @@ name: Adi Krishnamoorthy
 linkedin: https://www.linkedin.com/in/adi-kri
 scholar: https://scholar.google.com/citations?user=I75HRiIAAAAJ
 github: https://github.com/AK4032
+
+# After Google Search Console gives you an HTML-tag code, uncomment and paste it:
+# google_site_verification: "PASTE_CODE_HERE"
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+author:
+  name: Adi Krishnamoorthy
 
 kramdown:
   math_engine: mathjax
