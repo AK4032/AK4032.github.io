@@ -9,8 +9,7 @@ linkedin: https://www.linkedin.com/in/adi-kri
 scholar: https://scholar.google.com/citations?user=I75HRiIAAAAJ
 github: https://github.com/AK4032
 
-# After Google Search Console gives you an HTML-tag code, uncomment and paste it:
-# google_site_verification: "PASTE_CODE_HERE"
+google_site_verification: "S8hp03ZZOUi6NenRbSKM2jTGbyttBA8DIL9a6ydLU24"
 
 plugins:
   - jekyll-sitemap
