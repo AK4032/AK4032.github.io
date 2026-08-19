@@ -5,7 +5,7 @@ title: Blog
 
 # Blog
 
-Notes that do not belong under Travel, Restaurants, or Festivals.
+Pages that do not belong under Travel, Restaurants, or Festivals.
 
 <div class="post-list">
 {% for post in site.posts %}
